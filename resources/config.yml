@@ -1,0 +1,8 @@
+ValorDesafiar: 50000.0
+ValorAceitar: 50000.0
+ValorWinner: 100000.0
+Mensagens:
+    msgAccept: '&6@desafiado aceitou o X1 contra @desafiante'
+    msgDesafia: '&6@desafiante desafiou @desafiado para um X1'
+    msgArregou: '&6@desafiado nao aceitou o X1 contra @desafiante'
+    msgFim: '&6@loser ganhou o X1 contra @winner'

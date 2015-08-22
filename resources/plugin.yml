@@ -1,0 +1,6 @@
+name: XPX1
+main: me.jonasxpx.xpx1.Xpx1
+version: 0.1
+softdepend: [CombatTag, SimpleClans]
+commands:
+    x1:
