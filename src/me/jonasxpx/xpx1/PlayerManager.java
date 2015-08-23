@@ -177,10 +177,6 @@ public class PlayerManager {
 	public void setWinner(String player)
 	{
 		win = Bukkit.getPlayer(player).getKiller();
-		if(mandante == win)
-			win = desafiado;
-		else
-			win = mandante;
 		Manager.setInvisible(desafiado, mandante, false);
 		getPlugin().getServer().getPluginManager().callEvent(new PlayerLosesEvent( Bukkit.getPlayer(player)));
 		exitTeleportDelayed(win, Locations.SAIDA);
